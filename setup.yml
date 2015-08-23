@@ -7,3 +7,5 @@
         apt: update_cache=yes
       - name: install ruby 2
         apt: name=ruby2.0 state=present
+      - name: install rails 4
+        apt: name=ruby-railties-4.0 state=present
